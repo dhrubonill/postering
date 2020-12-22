@@ -1,0 +1,35 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #D17F49;
+  color: Black;
+  font-weight: 600;
+  padding:  3px;
+}
+.content {
+  /*display: flex;*/
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  /*max-width: 960px;*/
+  flex-direction: column;
+  align-items: center;
+}
+
+ .example-large-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  height: 300px;
+  width: 300px;
+}
+example-stretched-tabs {
+  max-width: 800px;
+}
