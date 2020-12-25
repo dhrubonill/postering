@@ -1,10 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTabsModule} from '@angular/material/tabs';
-import {MatGridListModule} from '@angular/material/grid-list';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {AppComponent} from './app.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FormsModule} from '@angular/forms';
+import {MaterialModule} from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import {FormsModule} from '@angular/forms';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    MatTabsModule,
-    MatGridListModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
